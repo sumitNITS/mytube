@@ -1,0 +1,33 @@
+.search-bar{
+	margin :30px;
+	text-align :center;
+}
+div.search-bar button{
+	width: 4%;
+  padding: 1px;
+  background:#2e7bd4a9;
+  color: hsla(0, 0%, 100%, 0.863);
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /*Prevent double borders*/
+  cursor: pointer;
+  margin :auto;
+}
+.search-bar input{
+	width:50%;
+}
+video-item img{
+	max-width:100px;
+}
+.video-detail .details{
+	margin-top: 0px;
+	padding : 50px;
+	/* border :1px solid #ddd; */
+	border-radius:10px;
+}
+.list-group-item{
+	cursor: pointer;
+} 
+.list-group-item:hover{
+	background-color: rgb(206, 233, 231);
+}
